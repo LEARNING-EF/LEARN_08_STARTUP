@@ -28,14 +28,14 @@
 		// Solution (3)
 
 		//// Solution (4)
-		//// Note: Does Not Supported in EF 6.2.0 But Supported in EF Core 2.0
+		//// Note: Does Not Supported in EF 6.2.0 But Supported in EF Core 2.x
 		////[System.ComponentModel.DataAnnotations.Schema.DatabaseGenerated
 		////	(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Computed)]
 		////public System.Guid Id { get; set; }
 		//// Solution (4)
 
 		// Solution (4)
-		// Note: Does Not Supported in EF 6.2.0 But Supported in EF Core 2.0
+		// Note: Does Not Supported in EF 6.2.0 But Supported in EF Core 2.x
 		//[System.ComponentModel.DataAnnotations.Schema.DatabaseGenerated
 		//	(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Computed)]
 		//public System.DateTime InsertDateTime { get; set; }
