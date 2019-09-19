@@ -16,6 +16,7 @@
 
 			// **************************************************
 			MainForm startupForm = new MainForm();
+
 			System.Windows.Forms.Application.Run(startupForm);
 
 			if (startupForm != null)
@@ -25,7 +26,7 @@
 					startupForm.Dispose();
 				}
 
-				startupForm = null;
+				//startupForm = null;
 			}
 			// **************************************************
 		}

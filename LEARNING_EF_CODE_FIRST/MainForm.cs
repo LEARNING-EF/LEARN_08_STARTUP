@@ -16,13 +16,14 @@
 				databaseContext =
 					new Models.DatabaseContext();
 
-				Models.Country country = new Models.Country();
+				Models.Country country = new Models.Country
+				{
+					// Solution (1)
+					//country.Id = System.Guid.NewGuid();
+					// /Solution (1)
 
-				// Solution (1)
-				//country.Id = System.Guid.NewGuid();
-				// /Solution (1)
-
-				country.Name = "Iran";
+					Name = "Iran",
+				};
 
 				databaseContext.Countries.Add(country);
 
