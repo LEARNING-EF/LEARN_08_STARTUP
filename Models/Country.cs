@@ -36,13 +36,11 @@
 		//public System.Guid Id { get; set; }
 		// Solution (4)
 
-		// Solution (4)
 		// Supported in EF Core 2.x
 		// Does Not Supported in EF 6.2.0
 		//[System.ComponentModel.DataAnnotations.Schema.DatabaseGenerated
 		//	(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Computed)]
 		//public System.DateTime InsertDateTime { get; set; }
-		// Solution (4)
 
 		public string Name { get; set; }
 	}
